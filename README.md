@@ -48,7 +48,7 @@ Here's a walkthrough of implemented user stories:
     * https://www.rapidtables.com/web/css/css-color.html
     * https://developer.mozilla.org/en-US/docs/web/javascript/reference/global_objects/math/random
     * https://www.w3schools.com/js/js_arrays.asp
-    * w3schools.com/tags/tag_img.asp
+    * https://www.w3schools.com/tags/tag_img.asp
     * https://stackoverflow.com/questions/6305141/show-child-div-on-mouse-hover-of-parent-needs-javascript
     * https://www.w3schools.com/CSSref/pr_class_float.asp
     * https://stackoverflow.com/questions/13998677/html-css-button-positioning
