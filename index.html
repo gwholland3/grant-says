@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Grant Says</h1>
+    
+    <p>
+      Repeat the pattern to win!
+    </p>
+    
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">
+        <img class="hidden" src="https://cdn.glitch.com/c2bdc010-8c63-44c5-9e67-0a2e51f9c79e%2Ftreble_C.png?v=1616630658263" alt="treble C note" width="150" height="100">
+      </button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">
+        <img class="hidden" src="https://cdn.glitch.com/c2bdc010-8c63-44c5-9e67-0a2e51f9c79e%2Ftreble_E.png?v=1616630657230" alt="treble C note" width="150" height="100">
+      </button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">
+        <img class="hidden" src="https://cdn.glitch.com/c2bdc010-8c63-44c5-9e67-0a2e51f9c79e%2Ftreble_G.png?v=1616630657641" alt="treble C note" width="150" height="100">
+      </button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">
+        <img class="hidden" src="https://cdn.glitch.com/c2bdc010-8c63-44c5-9e67-0a2e51f9c79e%2Ftreble_Bb.png?v=1616630657369" alt="treble C note" width="150" height="100">
+      </button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()">
+        <img class="hidden" src="https://cdn.glitch.com/c2bdc010-8c63-44c5-9e67-0a2e51f9c79e%2Ftreble_D.png?v=1616630657606" alt="treble C note" width="150" height="100">
+      </button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()">
+        <img class="hidden" src="https://cdn.glitch.com/c2bdc010-8c63-44c5-9e67-0a2e51f9c79e%2Ftreble_F.png?v=1616630657255" alt="treble C note" width="150" height="100">
+      </button>
+    </div>
+
+  </body>
+</html>
